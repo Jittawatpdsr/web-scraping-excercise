@@ -23,7 +23,7 @@ def scrape_books(articles):
         star = star['class'][1]
 
         price = article.find('p',{'class':'price_color'}).text
-        price = float(price[1:])
+        price = str(price[1:])
         price = price.replace('£','')
 
         books_data.append([title, price, star])
