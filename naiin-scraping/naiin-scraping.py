@@ -1,4 +1,4 @@
-#30-9-2024_JittawatP.
+#30-9-2024_Jittawatp
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
